@@ -1,0 +1,166 @@
+@import url('http://fonts.cdnfonts.com/css/fd-necromancer');/*Logo font*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');/*Main ui font*/
+
+:root {
+    --main-bg-color: hsl(50, 50%, 90%);
+    --main-font-color: hsl(50, 50%, 10%);
+    --main-button-color: hsl(50, 80%, 80%);
+    --main-button-color-hover: hsl(50, 100%, 80%);
+    --animation-time: .15s;
+}
+
+
+* {
+    padding: 0ch;
+    margin: 0ch;
+}
+
+body, button {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: bold;
+    font-family: 'Ubuntu Mono', Courier, monospace, monospace;
+}
+
+body {
+    font-size: 12px;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+}
+
+button:hover {
+    background-color: var(--main-button-color-hover);
+}
+
+button {
+    border: .25em thick;
+    border-radius: .25em;
+    background-color: var(--main-button-color);
+    color: var(--main-font-color);
+    padding: .1em .25em .1em .25em;
+}
+
+
+
+/*button:hover, .likeButton:hover{
+    color:rgb(0, 255, 30);
+    background-color: rgb(0, 255, 30, .1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1), 0px 0px 6px 4px rgb(0, 255, 30),0px 0px 2px 0px rgba(255, 255, 255, 1) inset, 0px 0px 3px 2px rgb(0, 255, 30) inset;
+    z-index: 101;
+}*/
+
+ /*button, .likeButton{
+    font-weight: bold;
+    color:rgb(255, 64, 64);
+    box-shadow: 0em 0em 4em .5em rgba(255, 255, 255, .5), 0em 0em 3em 2em rgb(255, 0, 0);
+    transition: background-color 0.5s ease-in, border-color 0.5s ease-in; 
+    background-color: rgb(255, 64, 64, .1);
+    border: none;
+    user-select: none;
+    border-radius: .5em;
+    padding: .2em 1em .2em 1em;
+    transition: var(--hover-animation-time);
+} */
+
+/* .active{
+    color:rgb(0, 255, 30);
+    background-color: rgb(0, 255, 30, .1);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 1), 0px 0px 6px 4px rgb(0, 255, 30),0px 0px 2px 0px rgba(255, 255, 255, 1) inset, 0px 0px 3px 2px rgb(0, 255, 30) inset;
+}
+
+.notActive{
+    color:rgb(255, 64, 64);
+    background-color: rgb(255, 64, 64, .1);
+    box-shadow: 0px 0px 4px .5px rgba(255, 255, 255, .5) inset, 0px 0px 3px 2px rgb(255, 0, 0) inset;
+    box-shadow: 0px 0px 4px .5px rgba(255, 255, 255, .5), 0px 0px 3px 2px rgb(255, 0, 0);
+} */
+
+
+/* #enableEthereumButton{
+    height: 32px;
+} */
+
+/* #chaininfo{
+    font-size: 0.5em;
+    font-weight: bold;
+    height: 32px;
+    padding: 1em;
+} */
+
+/* input, select, textarea{
+    color: rgb(224, 224, 224);
+    background-color: rgb(56, 56, 56);
+    outline: none;
+    max-height: 3ch;
+    border:none;
+    border-radius: .5ch;
+} */
+
+#logo {
+    font-family: 'FD Necromancer', sans-serif;
+    color: #f6ff47;
+    font-size: 1.5rem;
+    overflow: hidden;
+    text-shadow: 1px 1px 10px rgb(255, 1, 1);
+}
+
+/* .timelockInputBlock{
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    max-height: 28px;
+    overflow: hidden;
+    padding: .5em;
+    flex-wrap: nowrap;
+    gap: .5em
+} */
+
+/* #timelockInput{
+    width: 46ch;
+} */
+
+
+/* .events{
+    grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
+} */
+
+/* .container{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    font-size: .8rem;
+    display: grid;
+    grid-template: auto / 1fr 2fr 1fr;
+    gap: 1ch;
+    width: 100%;
+    min-height: 30vh;
+    padding: 1ch;
+    margin: 1ch;
+    border-style: 1px solid;
+    border-radius: 1ch;
+    border-color: var(--main-bg-color)!important;
+    background-color: black !important;
+    box-shadow: 0px 0px 20px 4px rgb(0, 255, 30, .4), 0px 0px 10px 2px rgb(0, 255, 30, .2) inset !important;
+} */
+
+/* .mainContainer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+} */
+
+/* #console{
+    resize: none;
+    color: white;
+    background-color: black;
+
+    width: 100%;
+    height: 100px;
+
+    outline: none;
+	-moz-appearance: none;
+	border: 2px solid #999;
+} */
